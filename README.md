@@ -19,4 +19,4 @@ $python
 ```
 python ver2.py
 ```
-![サンプル](https://github.com/zakio10/tmp_jphacks/app.jpg)
+![サンプル](https://github.com/zakio10/tmp_jphacks/blob/master/app.jpg)
