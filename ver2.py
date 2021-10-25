@@ -115,39 +115,39 @@ for data_key in tqdm.tqdm(data_keys_list):
             tmp_corpus_data = ""
 
 
-        #現在注目しているデータが英語科日本語かチェック(文字列がASCII文字か判定)
-        if tmp_corpus_data.isascii() == True:
-            # print(tmp_corpus_data)
-            #英語分かち書き
-            tmp_corpus_data = ' '.join(en_tokenizer.word_tokenize(tmp_corpus_data))
-            #英語コーパスデータに追加
-            en_corpus_data[class_id] = tmp_corpus_data
-        else:
-            #日本語分かち書き
-            tmp_corpus_data = ja_tokenizer.parse(tmp_corpus_data)
-            tmp_corpus_data = tmp_corpus_data.replace(' \n', '')
-            #日本語コーパスデータに追加
-            ja_corpus_data[class_id] = tmp_corpus_data
+        # #現在注目しているデータが英語科日本語かチェック(文字列がASCII文字か判定)
+        # if tmp_corpus_data.isascii() == True:
+        #     # print(tmp_corpus_data)
+        #     #英語分かち書き
+        #     tmp_corpus_data = ' '.join(en_tokenizer.word_tokenize(tmp_corpus_data))
+        #     #英語コーパスデータに追加
+        #     en_corpus_data[class_id] = tmp_corpus_data
+        # else:
+        #     #日本語分かち書き
+        #     tmp_corpus_data = ja_tokenizer.parse(tmp_corpus_data)
+        #     tmp_corpus_data = tmp_corpus_data.replace(' \n', '')
+        #     #日本語コーパスデータに追加
+        #     ja_corpus_data[class_id] = tmp_corpus_data
 
-        # #アスキー文字抽出
-        # if tmp_corpus_data:
-        #     ascii_str = re.finditer('[^!-~\\s]|[　]', tmp_corpus_data)
-        #     print(list(ascii_str))
-        #     #アスキー文字が8割以上のとき英語と判定
-        #     if len(ascii_str) / len(tmp_corpus_data) > 0.8:
-        #     # #現在注目しているデータが英語科日本語かチェック(文字列がASCII文字か判定)
-        #     # if tmp_corpus_data.isascii() == True:
-        #         # print(tmp_corpus_data)
-        #         #英語分かち書き
-        #         tmp_corpus_data = ' '.join(en_tokenizer.word_tokenize(tmp_corpus_data))
-        #         #英語コーパスデータに追加
-        #         en_corpus_data[class_id] = tmp_corpus_data
-        #     else:
-        #         #日本語分かち書き
-        #         tmp_corpus_data = ja_tokenizer.parse(tmp_corpus_data)
-        #         tmp_corpus_data = tmp_corpus_data.replace(' \n', '')
-        #         #日本語コーパスデータに追加
-        #         ja_corpus_data[class_id] = tmp_corpus_data
+        #アスキー文字抽出
+        if tmp_corpus_data:
+            ascii_str = re.sub(r'[^!-~\\s]|[　]', '',tmp_corpus_data)
+            # print(ascii_str)
+            #アスキー文字が8割以上のとき英語と判定
+            if len(ascii_str) / len(tmp_corpus_data) > 0.8:
+            # #現在注目しているデータが英語科日本語かチェック(文字列がASCII文字か判定)
+            # if tmp_corpus_data.isascii() == True:
+                # print(tmp_corpus_data)
+                #英語分かち書き
+                tmp_corpus_data = ' '.join(en_tokenizer.word_tokenize(tmp_corpus_data))
+                #英語コーパスデータに追加
+                en_corpus_data[class_id] = tmp_corpus_data
+            else:
+                #日本語分かち書き
+                tmp_corpus_data = ja_tokenizer.parse(tmp_corpus_data)
+                tmp_corpus_data = tmp_corpus_data.replace(' \n', '')
+                #日本語コーパスデータに追加
+                ja_corpus_data[class_id] = tmp_corpus_data
 
         corpus_data[class_id] = tmp_corpus_data
 
