@@ -130,16 +130,17 @@ for data_key in tqdm.tqdm(data_keys_list):
 #重複した教員の名前を削除
 instructors = list(set(instructors))
 
-#出力用辞書
-output_data = dict()
+#教員名出力用辞書
+instructors_data = dict()
+instructors_data['instructors'] = instructors
 
-output_data['instructors'] = instructors
-output_data['corpus'] = corpus_data
+#コーパスjsonファイル出力
+with open('corpus_data.json', 'w') as f:
+    json.dump(corpus_data, f, ensure_ascii=False, indent=4)
 
 #jsonファイル出力
-with open('corpus_data.json', 'w') as f:
-    json.dump(output_data, f, ensure_ascii=False, indent=4)
-
+with open('instructors_data.json', 'w') as f:
+    json.dump(instructors_data, f, ensure_ascii=False, indent=4)
 
 
 # for idx, i in enumerate(corpus_data.keys()):
