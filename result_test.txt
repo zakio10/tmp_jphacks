@@ -1,2 +1,0 @@
-english data len : 2453
-japanese data len : 15112
