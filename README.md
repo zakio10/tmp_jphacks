@@ -4,11 +4,15 @@
 作成されるjsonデータは講義IDに対して，前処理された講義の「＜概要/Course Content Summary＞ + ＜到達目標/Goals,Aims＞ + ＜授業計画/Schedule＞の（内容/Contents）を取り出し連結」したものが対になっている．
 
 ## 環境
+```
 [packages]
 gensim = "*"
 mecab-python3 = "*"
 tqdm = "*"
 nltk = "*"
+pyemd = "*"
+numpy = "*"
+```
 
 MeCabの辞書はmecab-ipadic-NEologd
 https://github.com/neologd/mecab-ipadic-neologd
@@ -42,11 +46,16 @@ python make_data.py
 python pre_train.py
 ```
 
-テスト(Doc2vecバージョン)
+テスト(Doc2vecオンリー)
 ```
-python test.py
+python test_doc2vec.py
+```
+
+テスト(Doc2vecとWMDのハイブリッド)
+```
+python test_wmd.py
 ```
 
 実際に使うのは次の2つのうちの1つ．どっちか良いモデルを使ってください．
-- request_doc2vec.py
-- request_wmd.py
+- request_doc2vec.py : Doc2vecオンリー
+- request_wmd.py : Doc2vecとWMDのハイブリッド(少し重い)

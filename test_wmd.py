@@ -87,7 +87,7 @@ for test_class_id in test_class_ids:
 #         print(tmp_check, ' :', ref_data[test_class_id][tmp_check])
 #     print('----------------------------------------------------------------')
 #     #類似講義
-#     tmp_similar_list = en_doc2vec_model.docvecs.most_similar(test_class_id)[:10]
+#     tmp_similar_list = ja_doc2vec_model.docvecs.most_similar(test_class_id)[:10]
 #     for similar_class in tmp_similar_list:
 #         similar_class_id = similar_class[0]
 #         similar_class_level = similar_class[1]
