@@ -5,7 +5,12 @@ import re
 import tqdm
 import nltk as en_tokenizer
 
+#読み込み用
 data = dict()
+
+#参照用データ
+ref_data = dict()
+ref_list = ['preiod', 'degree', 'major', 'name', 'url', 'place', 'num_credits', 'day']
 
 #記号削除定義
 code_regex = re.compile('[!"#$%&\'\\\\()*+,-./:;<=>?@[\\]^_`{|}~「」〔〕“”〈〉『』【】＆＊・•—–◆●■□◇（）＄＃＠。、：；？！／〜｀＋￥％，．①②③④⑤⑥⑦⑧⑨]') #記号
@@ -16,10 +21,10 @@ korean_regex = re.compile('[\uac00-\ud7af\u3200-\u321f\u3260-\u327f\u1100-\u11ff
 # en_tokenizer = MeCab.Tagger('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd/ -Owakati')
 
 #Tokenizer定義(日本語)
-ja_tokenizer = MeCab.Tagger('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd/ -Owakati')
+ja_tokenizer = MeCab.Tagger('-d /usr/local/lib/mecab/dic/mecab-ipadic-neologd/')
 
 #jsonファイル読み込み
-with open('2021.json', mode='r') as f:
+with open('data/2021.json', mode='r') as f:
     data = json.load(f)
 
 #keyのリスト(学部の名前)
@@ -34,10 +39,15 @@ for data_key in data_keys_list:
 #コーパスデータ(＜概要/Course Content Summary＞ + ＜到達目標/Goals,Aims＞ + ＜授業計画/Schedule＞の（内容/Contents）)
 #keyは講義ID
 corpus_data = dict()
+
 #日本語講義
 ja_corpus_data = dict()
+ja_posid_data = dict()
+
 #英語講義
 en_corpus_data = dict()
+en_posid_data = dict()
+
 
 #教員の名前(ストップワード用)(上の名前と下の名前の間に半角の空白)
 instructors = []
@@ -72,12 +82,23 @@ print('コーパスデータ作成中...')
 for data_key in tqdm.tqdm(data_keys_list):
     #data_keyにはジャンル格納(例:"2021_学部_理工学部･理工学研究科（工学研究科）")
     for idx, class_id in enumerate(data_ids_dict[data_key]):
+        #参照用データ作成用
+        tmp_ref_data = dict()
+
         #class_idには講義ID
         #tmp_class_dataには現在，取り出しているある1つの講義dictが格納
         tmp_class_data = data[data_key][class_id]
         
+        #参照用
+        for tmp_ref_content in ref_list:
+            tmp_ref_data[tmp_ref_content] = tmp_class_data[tmp_ref_content]
+        tmp_ref_data['group'] = data_key
+
         #講義データから概要，到達目標，スケジュールが含まれる項目を取り出す
         tmp_class_data = tmp_class_data['syllabus_contents']
+
+        #参照用
+        tmp_ref_data['summary'] = tmp_class_data['summary']
 
         #現在注目している講義のコーパスデータを一時的に保持するリスト
         tmp_corpus_data = []
@@ -133,22 +154,54 @@ for data_key in tqdm.tqdm(data_keys_list):
         if tmp_corpus_data:
             ascii_str = re.sub(r'[^!-~\\s]|[　]', '',tmp_corpus_data)
             # print(ascii_str)
-            #アスキー文字が8割以上のとき英語と判定
-            if len(ascii_str) / len(tmp_corpus_data) > 0.8:
+            #アスキー文字が7割以上のとき英語と判定
+            if len(ascii_str) / len(tmp_corpus_data) > 0.7:
             # #現在注目しているデータが英語科日本語かチェック(文字列がASCII文字か判定)
             # if tmp_corpus_data.isascii() == True:
                 # print(tmp_corpus_data)
+                #アスキー文字以外を消去
+                # tmp_corpus_data = ascii_str
+                #品詞格納用リスト
+                tmp_posid_data = []
                 #英語分かち書き
-                tmp_corpus_data = ' '.join(en_tokenizer.word_tokenize(tmp_corpus_data))
+                tmp_corpus_data = en_tokenizer.word_tokenize(tmp_corpus_data) #形態素解析
+                tmp_posid_data = en_tokenizer.pos_tag(tmp_corpus_data) #品詞取得
+                if len(tmp_corpus_data) != len(tmp_posid_data):
+                    print("エラー : 品詞と形態素の個数が異なる!")
+                tmp_corpus_data = ' '.join(tmp_corpus_data) #形態素解析結果連結
+                tmp_posid_data = [p[1] for p in tmp_posid_data]
                 #英語コーパスデータに追加
                 en_corpus_data[class_id] = tmp_corpus_data
+                en_posid_data[class_id] = tmp_posid_data
             else:
                 #日本語分かち書き
-                tmp_corpus_data = ja_tokenizer.parse(tmp_corpus_data)
-                tmp_corpus_data = tmp_corpus_data.replace(' \n', '')
+                node = ja_tokenizer.parseToNode(tmp_corpus_data)
+                tmp_corpus_data = []
+                tmp_posid_data = []
+                while node:
+                    if node.feature.split(',')[0] == '記号':
+                        node = node.next
+                    tmp_corpus_data.append(node.surface) #形態素保存
+                    tmp_posid_data.append(node.feature.split(',')[0]) #品詞保存
+                    node = node.next
+                
+                del tmp_corpus_data[0] #文頭(BOS)削除
+                del tmp_corpus_data[-1] #文末(EOS)削除
+                del tmp_posid_data[0] #文頭(BOS)削除
+                del tmp_posid_data[-1] #文末(EOS)削除
+                if len(tmp_corpus_data) != len(tmp_posid_data):
+                    print("エラー : 品詞と形態素の個数が異なる!")
+
+                tmp_corpus_data = ' '.join(tmp_corpus_data) #形態素のリストを連結
+                # tmp_corpus_data = tmp_corpus_data.replace(' \n', '')
                 #日本語コーパスデータに追加
                 ja_corpus_data[class_id] = tmp_corpus_data
+                ja_posid_data[class_id] = tmp_posid_data
 
+        #参照用データ保存
+        ref_data[class_id] = tmp_ref_data
+
+        #コーパスデータ保存
         corpus_data[class_id] = tmp_corpus_data
 
 
@@ -160,20 +213,33 @@ instructors_data = dict()
 instructors_data['instructors'] = instructors
 
 #コーパスjsonファイル出力
-with open('corpus_data.json', 'w') as f:
+with open('data/corpus_data.json', 'w') as f:
     json.dump(corpus_data, f, ensure_ascii=False, indent=4)
+
+#参照用jsonファイル出力
+with open('data/ref_data.json', 'w') as f:
+    json.dump(ref_data, f, ensure_ascii=False, indent=4)
 
 #言語別コーパス(tf-idf用)
 div_corpus_data = dict()
 div_corpus_data['en'] = en_corpus_data
 div_corpus_data['ja'] = ja_corpus_data
 
+#言語別品詞データ
+div_posid_data = dict()
+div_posid_data['en'] = en_posid_data
+div_posid_data['ja'] = ja_posid_data
+
 #言語別コーパスjsonファイル出力
-with open('div_corpus_data.json', 'w') as f:
+with open('data/div_corpus_data.json', 'w') as f:
     json.dump(div_corpus_data, f, ensure_ascii=False, indent=4)
 
+#品詞データjsonファイル出力
+with open('data/div_posid_data.json', 'w') as f:
+    json.dump(div_posid_data, f, ensure_ascii=False, indent=4)
+
 #教員名jsonファイル出力
-with open('instructors_data.json', 'w') as f:
+with open('data/instructors_data.json', 'w') as f:
     json.dump(instructors_data, f, ensure_ascii=False, indent=4)
 
 
