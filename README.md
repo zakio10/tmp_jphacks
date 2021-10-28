@@ -56,6 +56,11 @@ python test_doc2vec.py
 python test_wmd.py
 ```
 
-実際に使うのは次の2つのうちの1つ．どっちか良いモデルを使ってください．
+実際にアプリに使うのは次の2つのうちの1つ．どっちか良いモデルを使ってください．多分改良しないとだめかもデータ読み込み方とか．
 - request_doc2vec.py : Doc2vecオンリー
 - request_wmd.py : Doc2vecとWMDのハイブリッド(少し重い)
+
+## 結果だけ知りたい
+これらのファイルを見ましょう．
+- result_wmd_model.txt
+- result_word2vec_model.txt

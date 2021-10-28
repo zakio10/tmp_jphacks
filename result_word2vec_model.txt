@@ -1,0 +1,209 @@
+english data len : 2453
+japanese data len : 15112
+================================================================
+class_id : 11610212
+major  : 理工学部･理工学研究科（工学研究科）
+name  : 機械学習Machine Learning
+summary  : 数理統計学の知識をベースに，教師あり学習と教師なし学習の概観を学ぶ講義である．　プログラミング演習で各手法の役割を示し，それが実際にどのような数式で成り立っているかを説明する．「式展開」と「実際の挙動」，この二点の理解を促進することを重視して進める．
+url  : https://syllabus.doshisha.ac.jp/html/2021/1610/11610212000.html
+----------------------------------------------------------------
+class_id : 10807421 similar_level : 0.6837721467018127
+major  : 文化情報学部・文化情報学研究科
+name  : 定量的データ分析Quantitative Data Analysis
+summary  : 本講義では，人間の文化に関わる様々な量的データから，文化現象の本質を見抜くため分析手法について学習する．特に，文化情報学において必須の手法と言える重回帰分析，判別分析，主成分分析，因子分析，クラスター分析など，通常「多変量解析」と呼ばれる分析手法の習得を目指す．具体的なデータ例を通して，個々の分析手法の目的・考え方，結果の解釈の仕方に加え，数理的背景についても基本的な部分について解説を行う．　　この講義では，毎回の出席も成績評価の対象とする。ただし，６回以上欠席したものは成績評価の対象としない。また，複数回宿題を出題し，その正答率も成績評価に加える。宿題が未提出のものは，宿題点のみならず，出席点も減点（すなわち欠席扱い）する。居眠りや不必要なスマホ操作など，受講態度の悪いものは退室を命じ，欠席扱いとする．　　課題の剽窃や，試験でのカンニング行為などの不正行為については厳正に対処する。　　講義内で演習を行う場合などは，発言を求めることもありうる．　　合理的配慮が必要な学生に対しては，可能な限りの配慮をする．
+url  : https://syllabus.doshisha.ac.jp/html/2021/0807/10807421000.html
+----------------------------------------------------------------
+class_id : 11615124 similar_level : 0.6754173636436462
+major  : 理工学部･理工学研究科（工学研究科）
+name  : 多変量解析Multivariate Analysis
+summary  : 本科目では，複数の観測変量から成るデータから統計的に因果関係や内部構造を導き出す多変量解析を学ぶ。学習項目は，多変量解析に必要な統計・解析・線形代数の基礎知識，重回帰分析，主成分分析，因子分析である。多変量解析には様々な手法があるが基礎的な少数の手法に絞り込み，各手法の理論と適用方法を十分理解することを目指す。
+url  : https://syllabus.doshisha.ac.jp/html/2021/1615/11615124000.html
+----------------------------------------------------------------
+class_id : 30840016 similar_level : 0.6745644807815552
+major  : 文化情報学部・文化情報学研究科
+name  : ベイズ統計学特論Advanced Lectures in Bayesian Statistics
+summary  : 本講義では，ベイズ統計学を理論，計算，応用の３つ側面から学習する．まずはすべての議論の基礎となる共役事前分布のベイズモデルの推測手法の理論を学習する．その後に，事後分布からのサンプリング法であるマルコフ連鎖モンテカルロ法の理論・実装法について学習する．さらに，さまざまなデータ分析例の紹介や，ベイジアンネットワーク，変分ベイズ法，ノンパラメトリックベイズ法，ベイズ最適化などの近年の話題についてのサーベイも行う．
+url  : https://syllabus.doshisha.ac.jp/html/2021/0840/30840016000.html
+----------------------------------------------------------------
+class_id : 11610199 similar_level : 0.6659491062164307
+major  : 理工学部･理工学研究科（工学研究科）
+name  : 応用数理統計学Applied Statistics
+summary  : 春学期の「数理統計学」で習得した知識をベースに，推定・仮説検定・分散分析の具体的な方法を学ぶ．
+url  : https://syllabus.doshisha.ac.jp/html/2021/1610/11610199000.html
+----------------------------------------------------------------
+class_id : 10912152 similar_level : 0.6588129997253418
+major  : 社会学部・社会学研究科
+name  : 社会統計学ⅡSocial Statistics II
+summary  : この講義は，社会学分野におけるデータ分析で用いられる多変量解析の手法について学ぶものである。講義では，種々の解析法に関してその基本的な考え方と主要な分析手法について学ぶ。分散分析や重回帰分析，主成分分析を基本とするが，その他の分析手法についても適宜とりあげる。　　※この科目は，社会調査士のために必要な履修科目[Ｅ]に該当します。
+url  : https://syllabus.doshisha.ac.jp/html/2021/0912/10912152000.html
+----------------------------------------------------------------
+class_id : 10806521 similar_level : 0.6582111120223999
+major  : 文化情報学部・文化情報学研究科
+name  : 定量的データ分析Quantitative Data Analysis
+summary  : 本講義では，人間の文化に関わる様々な量的データから，文化現象の本質を見抜くため分析手法について学習する．特に，文化情報学において必須の手法と言える重回帰分析，判別分析，主成分分析，因子分析，クラスター分析など，通常「多変量解析」と呼ばれる分析手法の習得を目指す．具体的なデータ例を通して，個々の分析手法の目的・考え方，結果の解釈の仕方に加え，数理的背景についても基本的な部分について解説を行う．　　この講義では，毎回の出席も成績評価の対象とする。ただし，６回以上欠席したものは成績評価の対象としない。また，複数回宿題を出題し，その正答率も成績評価に加える。宿題が未提出のものは，宿題点のみならず，出席点も減点（すなわち欠席扱い）する。居眠りや不必要なスマホ操作など，受講態度の悪いものは退室を命じ，欠席扱いとする．　　課題の剽窃や，試験でのカンニング行為などの不正行為については厳正に対処する。　　講義内で演習を行う場合などは，発言を求めることもありうる．　　合理的配慮が必要な学生に対しては，可能な限りの配慮をする．
+url  : https://syllabus.doshisha.ac.jp/html/2021/0806/10806521000.html
+----------------------------------------------------------------
+class_id : 35620672 similar_level : 0.6551080346107483
+major  : 高等研究教育院設置科目（ALA科目群、GRM科目、Comm5.0科目）
+name  : ベイズ統計学特論Advanced Lectures in Bayesian Statistics
+summary  : 本講義では，ベイズ統計学を理論，計算，応用の３つ側面から学習する．まずはすべての議論の基礎となる共役事前分布のベイズモデルの推測手法の理論を学習する．その後に，事後分布からのサンプリング法であるマルコフ連鎖モンテカルロ法の理論・実装法について学習する．さらに，さまざまなデータ分析例の紹介や，ベイジアンネットワーク，変分ベイズ法，ノンパラメトリックベイズ法，ベイズ最適化などの近年の話題についてのサーベイも行う．
+url  : https://syllabus.doshisha.ac.jp/html/2021/5620/35620672000.html
+----------------------------------------------------------------
+class_id : 30840015 similar_level : 0.6546151041984558
+major  : 文化情報学部・文化情報学研究科
+name  : 経済統計学特論Advanced Lectures in Economic Statistics
+summary  : 本講義では，経済理論の実証や経済データ分析手法を，データサイエンスの視点から学習する。学部レベルの微積分・線形代数（行列演算）・確率統計の知識は前提とする。線形回帰モデルの最小二乗法から出発し，分位点回帰，セミパラメトリック法，ノンパラメトリック法，制限従属変数法，計算機統計学的手法や，部分識別法などの最新の成果まで，理論に加え実データ分析例も交えながら網羅的に学習する．
+url  : https://syllabus.doshisha.ac.jp/html/2021/0840/30840015000.html
+----------------------------------------------------------------
+class_id : 11630111-004 similar_level : 0.6377654075622559
+major  : 理工学部･理工学研究科（工学研究科）
+name  : 物理学Ⅱ-4Physics II-4
+summary  : 波動として理解される現象が多くの分野において見出される。これらは共通の数理的側面（線形性）を持つ。色々な分野に現れる「振動と波動」について統一的な見方で学ぶ。振動のメカニズムの理解を目標とし，各分野に現れる波動現象の基礎方程式の導出を行う。これら波動現象にあらわれる基礎的な考え方を学ぶことによって，工学における種々の複雑な現象を理解する能力を養うことを目標とする。
+url  : https://syllabus.doshisha.ac.jp/html/2021/1630/11630111004.html
+----------------------------------------------------------------
+class_id : 10522201-001 similar_level : 0.6343832612037659
+major  : 商学部・商学研究科
+name  : 基本統計学-1Introduction to statistics-1
+summary  : 現代のビジネスにおいては，データ分析に基づいた意思決定の重要性がますます高まっています。本講義では，企業の財務データや株価データなどビジネスに関連するデータを用いながら，データ分析の基礎となる統計学の入門的な内容を学びます。まず，データの整理や平均，分散などの記述統計を学習します。次に，推定，検定などの推測統計について学習します。また，学習内容を実践するため，Excelを使用した初歩的なデータ分析も行います。これらの内容から，適切に数字を読み取れて有益な情報を得られるようになるだけでなく，様々ビジネス現場で必要となる基礎的なデータ分析をできるようになることを目的とします。
+url  : https://syllabus.doshisha.ac.jp/html/2021/0522/10522201001.html
+----------------------------------------------------------------
+
+
+================================================================
+class_id : 30562111
+major  : 商学部・商学研究科
+name  : ミクロ経済学Microeconomics
+summary  : ミクロ経済学は，金融，国際貿易，立地理論などの基礎になる分野です．本講義では，基本的なミクロ経済学の理論を丁寧に解説します．基本的に講義形式で進め，その過程において，演習を行う予定です．講義の中では主に消費者理論，生産者理論，交換理論，不完全競争市場，ゲーム理論，情報の経済学を扱う予定にしてます．
+url  : https://syllabus.doshisha.ac.jp/html/2021/0562/30562111000.html
+----------------------------------------------------------------
+class_id : 30561102 similar_level : 0.7925012111663818
+major  : 商学部・商学研究科
+name  : ファイナンスFinance
+summary  : ファイナンスは，株価や為替レートの変動，ビジネス環境の変化といったリスクが存在する下で，現在から将来のことを考え，人的・物的資本や資金などの限られた資源をどのように使えば目的を達成できるかを分析する学問です。例えば，株価の評価，株価や為替レートの変動リスクを回避するための金融商品を用いた資産管理や，企業がM&Aを実施する場合の買収企業の価値評価などに関する分析などがあります。このように金融市場や企業経営の意思決定において重要な役割を担うファイナンスに対して，本講義では基礎となる理論を幅広く学びます。
+url  : https://syllabus.doshisha.ac.jp/html/2021/0561/30561102000.html
+----------------------------------------------------------------
+class_id : 10407104 similar_level : 0.7700520753860474
+major  : 経済学部・経済学研究科
+name  : 中級マクロ経済学１Advanced Macroeconomics 1
+summary  : 新古典派の動学マクロ経済理論の基礎的な分析手法について学んだ上で，生産や消費，利子率等のマクロ経済変数がどのようなメカニズムで決定されるのかについて分析する．
+url  : https://syllabus.doshisha.ac.jp/html/2021/0407/10407104000.html
+----------------------------------------------------------------
+class_id : 30564000-007 similar_level : 0.7649587988853455
+major  : 商学部・商学研究科
+name  : 大学院基礎演習-7Basic Information Seminar-7
+summary  : 貿易論は，重商主義期以来，その政策思想と密接に関連しながら展開してきた歴史を有しています。また，今日の国際社会においても，貿易政策をめぐる問題は重要なトピックとなっています。この演習では，貿易政策論を，数値例を用いた理論分析を通じて学びます。
+url  : https://syllabus.doshisha.ac.jp/html/2021/0564/30564000007.html
+----------------------------------------------------------------
+class_id : 10522313-002 similar_level : 0.761145830154419
+major  : 商学部・商学研究科
+name  : マクロ経済学-2Macroeconomics-2
+summary  : マクロ経済学はミクロ経済学と並んで経済学を学ぶ上で経済理論の基礎をなす学問です。ミクロ経済学が個々の経済活動を分析するのに対し，マクロ経済学では 一国の経済を分析します。本講義ではGDP，経済成長率，失業率，インフレ率といった経済指標について解説し，これらの変数がなぜ変化するのか，またその変化が経済にどのような影響を及ぼすのかを説明します。経済現象を理解し，分析する力を養うことをねらいとします。授業形態は対面授業です。
+url  : https://syllabus.doshisha.ac.jp/html/2021/0522/10522313002.html
+----------------------------------------------------------------
+class_id : 16004401-052 similar_level : 0.7561715245246887
+major  : 全学共通教養教育科目（外国語教育科目・保健体育科目以外）
+name  : 経済学２-52(ミクロ経済学入門　２)Economics 2-52 (Introduction to Microeconomics 2)
+summary  : 本講義ではミクロ経済学について講義する。ミクロ経済学は，個々の経済主体の合理的な行動から出発して，各財の市場や経済全体の分析へと，小さな部分から全体へと分析を発展させていく方法である。　　ミクロ経済学の基本は市場の価格メカニズムの働きの分析であるが，20世紀後半以降，ゲーム理論や情報の経済学を用いた分析が盛んになっている。この講義では，ゲーム理論や情報の経済学を用いて，市場の競争が十分に機能しない状況(不完全競争)や，市場の限界(市場の失敗)について講義する。　　経済学1-52「ミクロ経済学入門１」では需要と供給に基づく市場メカニズムの働きについて講義する。両方をあわせて，ミクロ経済学の主要トピックについて概観する予定である。　る。
+url  : https://syllabus.doshisha.ac.jp/html/2021/6004/16004401052.html
+----------------------------------------------------------------
+class_id : 10407183 similar_level : 0.750363826751709
+major  : 経済学部・経済学研究科
+name  : 経済政策１Economic Policy 1
+summary  : 現代的なマクロ経済理論に基づきながら，短期の景気変動と金融政策の関係について解説する．具体的には，現在最も標準的なマクロ経済理論の一つと考えられているニューケインジアン・モデルについて学習する．
+url  : https://syllabus.doshisha.ac.jp/html/2021/0407/10407183000.html
+----------------------------------------------------------------
+class_id : 10522201-014 similar_level : 0.744922399520874
+major  : 商学部・商学研究科
+name  : 基本統計学-14Introduction to statistics-14
+summary  : 現代のビジネスにおいては，データ分析に基づいた意思決定の重要性がますます高まっています。本講義では，企業の財務データや株価データなどビジネスに関連するデータを用いながら，データ分析の基礎となる統計学の入門的な内容を学びます。まず，データの整理や平均，分散などの記述統計を学習します。次に，推定，検定などの推測統計について学習します。また，学習内容を実践するため，Excelを使用した初歩的なデータ分析も行います。これらの内容から，適切に数字を読み取れて有益な情報を得られるようになるだけでなく，様々ビジネス現場で必要となる基礎的なデータ分析をできるようになることを目的とします。
+url  : https://syllabus.doshisha.ac.jp/html/2021/0522/10522201014.html
+----------------------------------------------------------------
+class_id : 10522201-013 similar_level : 0.743584930896759
+major  : 商学部・商学研究科
+name  : 基本統計学-13Introduction to statistics-13
+summary  : 現代のビジネスにおいては，データ分析に基づいた意思決定の重要性がますます高まっています。本講義では，企業の財務データや株価データなどビジネスに関連するデータを用いながら，データ分析の基礎となる統計学の入門的な内容を学びます。まず，データの整理や平均，分散などの記述統計を学習します。次に，推定，検定などの推測統計について学習します。また，学習内容を実践するため，Excelを使用した初歩的なデータ分析も行います。これらの内容から，適切に数字を読み取れて有益な情報を得られるようになるだけでなく，様々ビジネス現場で必要となる基礎的なデータ分析をできるようになることを目的とします。
+url  : https://syllabus.doshisha.ac.jp/html/2021/0522/10522201013.html
+----------------------------------------------------------------
+class_id : 10522201-005 similar_level : 0.7420223951339722
+major  : 商学部・商学研究科
+name  : 基本統計学-5Introduction to statistics-5
+summary  : 現代のビジネスにおいては，データ分析に基づいた意思決定の重要性がますます高まっています。本講義では，企業の財務データや株価データなどビジネスに関連するデータを用いながら，データ分析の基礎となる統計学の入門的な内容を学びます。まず，データの整理や平均，分散などの記述統計を学習します。次に，推定，検定などの推測統計について学習します。また，学習内容を実践するため，Excelを使用した初歩的なデータ分析も行います。これらの内容から，適切に数字を読み取れて有益な情報を得られるようになるだけでなく，様々ビジネス現場で必要となる基礎的なデータ分析をできるようになることを目的とします。
+url  : https://syllabus.doshisha.ac.jp/html/2021/0522/10522201005.html
+----------------------------------------------------------------
+class_id : 16004400-052 similar_level : 0.7419938445091248
+major  : 全学共通教養教育科目（外国語教育科目・保健体育科目以外）
+name  : 経済学１-52(ミクロ経済学入門　１)Economics 1-52 (Introduction to Microeconomics 1)
+summary  : 本講義ではミクロ経済学について講義する。ミクロ経済学は，個々の経済主体の合理的な行動から出発して，各財の市場や経済全体の分析へと，小さな部分から全体へと分析を発展させていく方法である。　　ミクロ経済学の基本は市場の価格メカニズムの働きの分析であるが，20世紀後半以降，ゲーム理論や情報の経済学を用いた分析が盛んになっている。この講義では，ミクロ経済学の基本である需要と供給に基づく市場メカニズムの働きについて講義する。また，市場分析の応用として労働市場の分析についても取り扱う。　　経済学2-52「ミクロ経済学入門２」ではゲーム理論や情報の経済学を用いて，市場の競争が十分に機能しない状況(不完全競争)や，市場の限界(市場の失敗)について講義する。両方をあわせて，ミクロ経済学の主要トピックについて概観する予定である。
+url  : https://syllabus.doshisha.ac.jp/html/2021/6004/16004400052.html
+----------------------------------------------------------------
+
+
+================================================================
+class_id : 51100303
+major  : 政策学部・総合政策科学研究科
+name  : 心理学(組織心理)Psychology (Organization Psychology)
+summary  : 組織心理学は，組織において個人がどのような思いで働き，どのように行動し，どのような態度を形成するかを探る学問である。どのような組織心理学の研究にも共通することは，いずれの研究も組織という社会的文脈の中で形成される個人の心理や行動をとらえようとしている点である。つまり，働く個人の心理や行動は，その個人が所属し，仕事を行う組織や職場の環境要因（例えば，構造，文化，規範など）を考慮せずには明らかに出来ないという視点に立っている。組織環境あっての個人というこの視点は，環境要因を操作することにより個人の行動を変容させることができるという論理にもつながるが，同時に，個人は必ずしも環境に対して完全に受動的なわけではなく，自らの意思により行動し，また行動を統制する存在でもある。このことから，組織の社会的文脈の中で「人」と「環境」がどのように相互に作用し合いながら態度を形成し，行動を引き起こすかを検討することは重要である。　　授業では，組織心理学の主要テーマである，モチベーション，職務満足，コミットメント，ストレス，ワーク・ファミリー・コンフリクトを取り上げ，講義形式と演習形式を組み合わせて授業を進めるが，特に受講生自身の経験を取り上げながら討論を進めたい。授業運営は，受講者の人数や関心に即して弾力的に行う予定である。授業は2限連続（180分）で行うが，各回の前半90分は主としてレクチャーおよびレクチャー内容に関する討論を行い，後半の90分は演習形式で文献に関する討論を行う。本科目で扱う内容の多くは組織心理学の【基礎的】なものであるため，すでに組織心理学を学習したことがある学生や組織心理に関して一定の知識のある学生にはあまりお勧めできないので注意すること。逆に，組織心理学を一度も学んだことがない学生にとっては基礎からの入門的な学習の場になると思われる。毎回の授業の後半に行う演習部分では文献の内容についての討論を行うため，受講生には文献に関する自分の考察を持ち寄ってもらう。　　なお，本科目では毎週の授業までにリーディング・アサインメントを読み，要点を抽出するために十分な時間を割くことが必須条件である（毎週提出物あり）。この点を十分注意して受講すること。リーディングに関してはその要点をまとめ，自らの経験等と照らし合わせながら問題意識を整理し，授業でのディスカッションに向けて準備することを期待する。
+url  : https://syllabus.doshisha.ac.jp/html/2021/1100/51100303000.html
+----------------------------------------------------------------
+class_id : 30703015 similar_level : 0.7734747529029846
+major  : 政策学部・総合政策科学研究科
+name  : 心理学(組織心理)Psychology (Organization Psychology)
+summary  : 組織心理学は，組織において個人がどのような思いで働き，どのように行動し，どのような態度を形成するかを探る学問である。どのような組織心理学の研究にも共通することは，いずれの研究も組織という社会的文脈の中で形成される個人の心理や行動をとらえようとしている点である。つまり，働く個人の心理や行動は，その個人が所属し，仕事を行う組織や職場の環境要因（例えば，構造，文化，規範など）を考慮せずには明らかに出来ないという視点に立っている。組織環境あっての個人というこの視点は，環境要因を操作することにより個人の行動を変容させることができるという論理にもつながるが，同時に，個人は必ずしも環境に対して完全に受動的なわけではなく，自らの意思により行動し，また行動を統制する存在でもある。このことから，組織の社会的文脈の中で「人」と「環境」がどのように相互に作用し合いながら態度を形成し，行動を引き起こすかを検討することは重要である。　　授業では，組織心理学の主要テーマである，モチベーション，職務満足，コミットメント，ストレス，ワーク・ファミリー・コンフリクトを取り上げ，講義形式と演習形式を組み合わせて授業を進めるが，特に受講生自身の経験を取り上げながら討論を進めたい。授業運営は，受講者の人数や関心に即して弾力的に行う予定である。授業は2限連続（180分）で行うが，各回の前半90分は主としてレクチャーおよびレクチャー内容に関する討論を行い，後半の90分は演習形式で文献に関する討論を行う。本科目で扱う内容の多くは組織心理学の【基礎的】なものであるため，すでに組織心理学を学習したことがある学生や組織心理に関して一定の知識のある学生にはあまりお勧めできないので注意すること。逆に，組織心理学を一度も学んだことがない学生にとっては基礎からの入門的な学習の場になると思われる。毎回の授業の後半に行う演習部分では文献の内容についての討論を行うため，受講生には文献に関する自分の考察を持ち寄ってもらう。　　なお，本科目では毎週の授業までにリーディング・アサインメントを読み，要点を抽出するために十分な時間を割くことが必須条件である（毎週提出物あり）。この点を十分注意して受講すること。リーディングに関してはその要点をまとめ，自らの経験等と照らし合わせながら問題意識を整理し，授業でのディスカッションに向けて準備することを期待する。
+url  : https://syllabus.doshisha.ac.jp/html/2021/0703/30703015000.html
+----------------------------------------------------------------
+class_id : 11700002-001 similar_level : 0.5963993668556213
+major  : 心理学部・心理学研究科
+name  : 心理学概論（２）-1General Psychology (2)-1
+summary  : 心理学とは心と行動を対象とする科学である。心理学では，客観的データに基づいた実証科学の一つとして人間の心と行動を分析し，法則を見つけようとし，いろいろな新しい知見を積んできた。本講では，「心理学概論(1)」に引き続き心理学事象の基礎となる感情，心身機能の発達，パーソナリティなどについて学ぶとともに，応用的事項として人の精神的な健康や病理（精神疾患・障害）およびそれらをケアするためのアプローチ法（心理トリートメント），さらには他者や集団からの影響などについて学ぶ。これらを通して，心理学の成り立ち，心理学の考え方，方法，人の心のしくみや働きなどを身につけられることを目標とする。
+url  : https://syllabus.doshisha.ac.jp/html/2021/1700/11700002001.html
+----------------------------------------------------------------
+class_id : 52101008 similar_level : 0.5642131567001343
+major  : 脳科学研究科
+name  : 行動認知神経科学Behavioral and Cognitive Neuroscience
+summary  : 外部からの様々な情報は知覚神経を介して脳に伝えられ，統合されて認知される。また，脳からの指令が運動神経に伝えられると様々な運動と行動がなされる。さらに人の場合，学習，記憶，情動，思考，言語といった高次機能が発達している。高次脳機能研究は心理学，生理学にまたがっており，文系，理系が融合した研究分野である。この授業では高次脳機能に関する知見を多様な視点から学ぶ。基本的には講義と自主学習を組み合わせて授業を進める。　　The brain enables us to recognize the world by integrating various types of information received from external events via the sensory nervous system. It also sends signals to the motor nervous system to produce various actions. Besides, higher brain functions including learning, memory, emotion, thought and language are specifically developed in humans. Those studies have been conducted in brain science, an integrative research field across science and humanities ranging from psychology and physiology. In this lecture, students can learn knowledge of the higher brain function from multifaceted viewpoints. This course consists of lectures and self-learning.　　（櫻井芳雄／６回）行動を対象とした神経科学について，まずその目的と方法の多様性について解説する。次に神経科学における行動研究の必要性と意義を解説した最近の重要論文を紹介し，その内容について発表してもらい議論する。最後に，行動を中心に置いた研究例として攻撃行動と精神疾患を取り上げ解説する。　　Following introduction of various purpose and methodology of behavioral neuroscience, a recent significant paper discussing why neuroscience needs behavior is introduced and discussed with presentation by students about the contents of the paper. Finally, as examples of behavioral neuroscience, aggressive behavior and mental dysfunctions are reviewed.   　　（髙橋晋／６回）本講義では，行動するための運動制御メカニズムについて論文を交えて議論する。更に，認知過程の一例として，様々な知覚を統合し，記憶を参照することで初めて実現できる空間認知について議論する。関連文献を取り上げ，認知と行動の神経メカニズムについての理解を深める。　　In this lecture, we discuss neuronal mechanisms for motor control to understand animal behavior. Spatial cognition can be realized by integrating several sensory perceptions and their memory. Therefore, we also discuss such spatial cognition as an example of the cognitive process. Recently published articles will be used to foster a better understanding of the neuronal mechanism for cognition and behavior.　　（畑敏道／３回）行動と脳の関係を理解する上で，行動を操作・測定する技法(実験心理学や学習心理学)は大変重要である。本講義では，動物の脳内報酬系に関わる行動や時間評価行動を取り上げ，動物の認知過程をいかにして行動として観察可能なものにするのか，という点に注意しながら講義・議論する。　　Methodologies for measuring and manipulating animal behavior (experimental psychology and psychology of learning) are very important to understand the relationships between behavior and the brain. This lecture covers topics on animal behavior with regard to the time estimation and reward system within the brain. We will focus on how we make the cognitive process of the animal be measurable.
+url  : https://syllabus.doshisha.ac.jp/html/2021/2101/52101008000.html
+----------------------------------------------------------------
+class_id : 41500011 similar_level : 0.5629134178161621
+major  : スポーツ健康科学部・スポーツ健康科学研究科
+name  : スポーツ医学深論Extensive Lectures in Sports Medicine
+summary  : スポーツ医学に関する研究を実施していく上で，基本となる基礎知識（解剖・生理・傷害各論）を整理して学習し，基本的な研究方法や研究手技について理解を深める．
+url  : https://syllabus.doshisha.ac.jp/html/2021/1500/41500011000.html
+----------------------------------------------------------------
+class_id : 31702573 similar_level : 0.5614879131317139
+major  : 心理学部・心理学研究科
+name  : 臨床社会心理学特論Advanced Studies in Clinical Social Psychology
+summary  : 臨床社会心理学は，臨床心理学やカウンセリング心理学と社会心理学や認知心理学をインターフェイスする科学研究領域であり，主として心理学的（感情，認知，行動）不適応の発生・形成プロセスや心理学的介入（心理療法，カウンセリング）の開発と効果に関与する社会心理学（認知心理学も含む）の理論的・実証的研究と臨床的・実践的研究を企画・遂行する。本講義では，臨床社会心理学の基本的な視座を理解したうえで臨床心理学に関する諸問題を考察する。
+url  : https://syllabus.doshisha.ac.jp/html/2021/1702/31702573000.html
+----------------------------------------------------------------
+class_id : 52101221 similar_level : 0.5451585650444031
+major  : 脳科学研究科
+name  : 行動認知神経科学Behavioral and Cognitive Neuroscience
+summary  : 外部からの様々な情報は知覚神経を介して脳に伝えられ，統合されて認知される。また，脳からの指令が運動神経に伝えられると様々な運動と行動がなされる。さらに人の場合，学習，記憶，情動，思考，言語といった高次機能が発達している。高次脳機能研究は心理学，生理学にまたがっており，文系，理系が融合した研究分野である。この授業では高次脳機能に関する知見を多様な視点から学ぶ。基本的には講義と自主学習を組み合わせて授業を進める。　　The brain enables us to recognize the world by integrating various types of information received from external events via the sensory nervous system. It also sends signals to the motor nervous system to produce various actions. Besides, higher brain functions including learning, memory, emotion, thought and language are specifically developed in humans. Those studies have been conducted in brain science, an integrative research field across science and humanities ranging from psychology and physiology. In this lecture, students can learn knowledge of the higher brain function from multifaceted viewpoints. This course consists of lectures and self-learning.　　（櫻井芳雄／６回）行動を対象とした神経科学について，まずその目的と方法の多様性について解説する。次に神経科学における行動研究の必要性と意義を解説した最近の重要論文を紹介し，その内容について発表してもらい議論する。最後に，行動を中心に置いた研究例として攻撃行動と精神疾患を取り上げ解説する。　　Following introduction of various purpose and methodology of behavioral neuroscience, a recent significant paper discussing why neuroscience needs behavior is introduced and discussed with presentation by students about the contents of the paper. Finally, as examples of behavioral neuroscience, aggressive behavior and mental dysfunctions are reviewed.   　　（髙橋晋／６回）本講義では，行動するための運動制御メカニズムについて論文を交えて議論する。更に，認知過程の一例として，様々な知覚を統合し，記憶を参照することで初めて実現できる空間認知について議論する。関連文献を取り上げ，認知と行動の神経メカニズムについての理解を深める。　　In this lecture, we discuss neuronal mechanisms for motor control to understand animal behavior. Spatial cognition can be realized by integrating several sensory perceptions and their memory. Therefore, we also discuss such spatial cognition as an example of the cognitive process. Recently published articles will be used to foster a better understanding of the neuronal mechanism for cognition and behavior.　　（畑敏道／３回）行動と脳の関係を理解する上で，行動を操作・測定する技法(実験心理学や学習心理学)は大変重要である。本講義では，動物の脳内報酬系に関わる行動や時間評価行動を取り上げ，動物の認知過程をいかにして行動として観察可能なものにするのか，という点に注意しながら講義・議論する。　　Methodologies for measuring and manipulating animal behavior (experimental psychology and psychology of learning) are very important to understand the relationships between behavior and the brain. This lecture covers topics on animal behavior with regard to the time estimation and reward system within the brain. We will focus on how we make the cognitive process of the animal be measurable.
+url  : https://syllabus.doshisha.ac.jp/html/2021/2101/52101221000.html
+----------------------------------------------------------------
+class_id : 11700305 similar_level : 0.5429435968399048
+major  : 心理学部・心理学研究科
+name  : 臨床社会心理学Clinical and Social Psychology
+summary  : 臨床社会心理学（Clinical and Social Psychology）は伝統的に臨床心理学の範疇とされてきたに人間の心と行動の異常または機能不全の理解と解決を図るために，社会心理学や神経社会心理学の理論を応用する試みである。例えば，人間にとっての最大のストレスは何か?自然災害，社会変動，紛争・戦争，地域治安など圧倒的な環境因子はもちろんのこと，対人関係－家族・親戚・友人・恋人・配偶者・親子・職場の同僚など－，生活地域，職場，社会・文化的規範など日常生活そのものがストレス源であると言える。心または行動の正常と異常の境界はいかなるものなのか?正義と悪の境界はいかなるものなのか?臨床社会心理学の視座では正常と異常は連続性があり，正義と悪は共存関係にある。講義では複数の主題について，臨床心理学と社会心理学を交差させながら考察し，理解する思考力を受講生が涵養することを目指す。
+url  : https://syllabus.doshisha.ac.jp/html/2021/1700/11700305000.html
+----------------------------------------------------------------
+class_id : 31702584 similar_level : 0.5385358929634094
+major  : 心理学部・心理学研究科
+name  : 心理療法特論Ⅰ（心理支援に関する理論と実践）Advanced Studies in Psychotherapy I (Theory and Practice of Psychological Support)
+summary  : この講義では以下を学び，心理療法の理論と方法を実際の心理支援業務に役立てる力を培う。　1．力動論に基づく心理療法の理論と方法　2．行動論・認知論に基づく心理療法の理論と方法　3．その他の心理療法の理論と方法　4．心理に関する相談・助言・指導等への1～3の応用　5．心理支援を要する者の特性と状況に応じた適切な支援方法の選択および調整
+url  : https://syllabus.doshisha.ac.jp/html/2021/1702/31702584000.html
+----------------------------------------------------------------
+class_id : 52101013 similar_level : 0.5382278561592102
+major  : 脳科学研究科
+name  : 記憶・学習Learning and Memory
+summary  : 記憶と学習は，脳の高次機能に関し最も研究が進んでいる分野であり，分子生物学，神経生理学，実験心理学など多様な手法により常に新たな知見が得られつつある。この授業では，まず記憶と学習のメカニズムに関する蓄積された知見と，最新の研究成果について学ぶ。また多様な研究の方法論を知ることで，未知の重要な課題を見出し，その解決に向けた新たな研究戦略について考える。３名の教員により下記の内容で実施する。　"Learning and Memory" is one of the most advanced research areas in neuroscience of higher brain functions. Recently developed methods of molecular biology, neurophysiology and experimental psychology are presenting new findings there. In this course, basic knowledge and up-to-date findings in learning and memory will be surveyed as comprehensively as possible. You can learn and discuss various research strategies to reveal unknown and key mechanisms of learning and memory. Three professors cover the following topics in rotation.　　（櫻井芳雄／7回）まず記憶・学習研究の歴史的実験について，それらの映像を中心に紹介する。次に，記憶・学習研究に必須である動物の行動研究について，特にオペラント条件づけと高次機能に焦点を当て解説する。次に，記憶と高次機能の関係や記憶情報の脳内表現について解説し，最後に，記憶研究の難問について解説し議論する。　(Sakurai/7) First, historical experiments in research of learning and memory are introduced with their movie films. The next topics are studies of higher brain functions using behavioral experiments and operant conditioning in rodents. The following topics are relations of memory and higher functions and neuronal coding of memory information. Finally, some hard problems to completely uncover the neural mechanisms of learning and memory are discussed.  　　（髙橋晋／6回）我々は「いつ，どこで，何をした」という体験した出来事を記憶し，それらを思い出すことができる。本講義では，このエピソード記憶を支える神経基盤についての最新文献を取り上げ，その内容を議論し理解を深める。特に，エピソード記憶を司る海馬とその周辺領野に焦点を当て，①空間や時間を表現する神経細胞，②ニューロン活動のリプレイと記憶の想起について取り上げる。　(Takahashi/6) We can vividly re-experience a series of past events along space and time in our mind. This is realized by episodic memory ability. In this lecture, we focus on the hippocampus and parahippocampal areas which are thought to be deeply involved in the episodic memory. Neurons encoding space and time and the relationship between replay of place cell activity sequences and retrieval process will be discussed. Recently published articles will be used to foster a better understanding of the neuronal underpinning of the episodic memory.　　（小林耕太／2回）記憶・学習の基礎となる知覚に関わる神経機構について，特に聴覚に焦点を当て，心理学，行動学，神経科学の視点で解説する。中枢の機能を理解するためには，末梢の構造と機能を理解する必要があるため，聴覚系末梢の内容も講義に含める。聴覚系では，音の周波数や振幅の時間的変化を神経系でコード化し，それらをデコードして知覚する。ヒトと動物において，聴覚系の機能を代表する知覚を解説する。また，聴覚系は発声機構と密接なつながりがあり，音声知覚は聴覚系の重要な機能であるので，音声知覚についても解説する。　　(Kobayashi/2) In this lecture, we focus on neural mechanisms of perception underlying learning and memory, in particular on mechanisms of auditory functions, from psychological, behavioral and neuroscientific points of view. The lecture includes not only central but also peripheral nervous systems. We explain how humans and animals perceive auditory stimuli by the auditory system, in which temporal changes of pitch and amplitude are coded and then decoded for perception. We also explain mechanisms of voice perception because auditory functions are strongly related to vocal functions.
+url  : https://syllabus.doshisha.ac.jp/html/2021/2101/52101013000.html
+----------------------------------------------------------------
+class_id : 52101007 similar_level : 0.5344597697257996
+major  : 脳科学研究科
+name  : 神経生物物理学Neurobiophysics
+summary  : 生物物理学は生命現象を物理的な基盤をもとに理解することを目指す学問分野である。この授業では，担当教員は脳神経科学と関連する生物物理学の重要項目について解説する。大学院専門科目としてかなりの学習量が要求され，基礎的な物理学，数学に関してはある程度の基礎知識を前提とする。　　（オムニバス方式／全15回）　　　（坂場武史／5回）神経細胞内，神経細胞間の電気信号のやりとりに関しての英文の文献を読む。具体的には，細胞内レベルで樹状突起，細胞体，軸索において電気信号がどのように統合されているか，あるいはシナプス機能の電気生理学的解析，イメージングによる解析がどのようにおこなわれてきたかに関する文献を受講者の興味を考慮しながら取り上げる。高校理系程度の物理，数学が理解できることが望ましく，必要な場合は学生が自学することが望ましい。　　（櫻井芳雄／5回）神経細胞は電気信号を発生することで他の神経細胞に信号を伝達する。そして神経回路内で生じる電気信号のパターンにより，特定の情報を符号化し表現している。この授業では，そのような神経情報を測定し解析する方法について，基本的な技術も含め，わかりやすく解説する。またその方法を活用した具体的な研究例，特に記憶などの高次な神経情報を解析した研究や，神経情報で外部の機器を直接操作するブレイン－マシン・インタフェース（BMI）の研究についても解説する。　　（髙橋晋／5回）　複数の神経細胞が発する電気信号を集団として計測すると，リズムを持った脳波を観察することができ，特定の脳波リズムと認知・行動に深い関連が見出されている。この授業では，そのような脳波リズムを測定・解析する方法や，脳波リズムに介入し操作する方法について，文献を読みながら解説する。更に，①脳波リズムと神経細胞活動の関係性，②脳波リズムと認知・行動との相関関係，③脳波リズムと神経変性疾患との因果関係についても解説する。　　Biophysics is the scientific approach / research area to address biological questions in the framework of physics. Mechanistic insights can be obtained from this approach. In this lecture series, 3 biophysical topics in the neuroscience field will be presented. The first part deals with biophysical analysis of synaptic transmission. The second one deals with measurements and analysis of neural information processing in a single cell level and neural ensembles in relation to neural coding, with particular focus on higher brain function and brain machine interface. The third one deals with electroencephalography, with particular attention to correlation between neural activity and electroencephalography, its relation to cognition and behavior as well as its relationship to neurological diseases. One needs basic knowledge of mathematics and physics and substantial amounts of work will be required.
+url  : https://syllabus.doshisha.ac.jp/html/2021/2101/52101007000.html
+----------------------------------------------------------------
+
+
