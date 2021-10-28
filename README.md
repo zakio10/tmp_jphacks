@@ -18,7 +18,6 @@ MeCabの辞書はmecab-ipadic-NEologd
 https://github.com/neologd/mecab-ipadic-neologd
 
 ## 使い方
-dataフォルダを作る
 「2021.json」をダウンロードして，フォルダに配置する．(./data/2021.json)
 
 
